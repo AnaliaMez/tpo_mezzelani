@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(147, 96, 180);
+    animation-name: cambiarColor;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambiarColor {
+    0% {background: rgb(13, 154, 197); width: 200px;}         /* Primer fotograma */
+    50% {background: rgb(6, 155, 135); width: 400px;}     /* Segundo fotograma */
+    100% {background: rgb(11, 85, 119); width: 600px;}     /* Último fotograma */    
+}

@@ -1,0 +1,37 @@
+*{font-family: Verdana;}
+
+h2 {
+    color:rgb(16, 24, 105);
+    font-family: "Comic Sans";
+    font-weight: bold,600;
+    font-size: 25px;
+    margin: 10px; 
+    padding: 10px;
+    
+}
+
+.contenedora{
+    background-color: rgb(11, 49, 133);
+    border: 1px solid rgb(1, 1, 26);
+    flex-grow: 1; 
+    flex-basis: 100%; 
+    padding: 10px;
+}
+
+.contenedora > div {
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    margin: 10px;
+    text-align:center;
+    line-height: 75px;
+    font-size: 30px;
+    
+}
+
+.contenedora{
+    display: flex; 
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+}

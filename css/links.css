@@ -1,0 +1,17 @@
+a {
+    background: rgb(6, 98, 141);
+    color: #222;
+    padding: 2px;
+    border: 1px solid rgb(18, 36, 141);
+}
+
+a:hover {
+    background: rgb(46, 98, 165);
+    color: rgb(13, 69, 153);
+    padding: 8px 14px;
+    border: 1px solid rgb(9, 36, 94);
+
+    transition-property: all; 
+    transition-duration: 0.5s; 
+    transition-timing-function: ease-in; 
+}

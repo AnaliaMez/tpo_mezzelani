@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incripciones</title>
+    <script src="https://kit.fontawesome.com/4c4aed3004.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1><i class="fa-solid fa-pen-to-square"></i> INSCRIPCIONES E INFORMES <i class="fa-solid fa-pen-to-square"></i></h1>
+
+    <h2>Por favor complete el siguiente Formulario</h2>
+    <form action="show_data.html" target="_blank">
+        <fieldset>
+            <legend>Datos del/a padre o madre</legend>
+            <label for="firstname">Nombre: </label><input size="30" type="text" name="firstname"
+                placeholder="Ingrese su nombre aqui..."> <br><br>
+            <label for="lastname">Apellido:</label><input size="30" type="text" name="lastname"
+                placeholder="Ingrese su apellido aqui..."> <br><br>
+            <label for="city">Ciudad: </label><input type="text" name="city" value="C.A.B.A."> <br><br>
+            <label for="telefono">Teléfono donde poder contactarlo: </label><input type="tel" name="telefono"
+                placeholder="ingrese su telefono aqui ...."> <br><br>
+            <label for="mail">Mail donde enviar la información: </label><input type="email" name="mail"> <br><br>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Datos del/a alumno/a</legend>
+            <label for="BirthDate">Fecha de Nacimiento del/a alumno/a(mm/dd/yyyy): </label> <input type="date" name="birthdate"> <br><br>
+            <label for="firstname">Nombre y Apellido del/a alumno/a: </label><input size="30" type="text" name="firstname"
+                placeholder="Ingrese el nombre del/a alumno/a aqui..."> <br><br>
+            <p>Género (del/a alumno/a)
+            <input type="radio" name="gender" value="Varón" checked>Hombre
+            <input type="radio" name="gender" value="Mujer">Mujer
+            <input type="radio" name="gender" value="Otro"> Otro
+            </p>
+            <p> Nivel al que desea inscribir al/la alumno/a:
+            <input type="checkbox" name="Nivel" value="INICIAL"> INICIAL
+            <input type="checkbox" name="Nivel" value="PRIMARIO"> PRIMARIO
+        </p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Cómo nos contactó</legend>
+            <label for="contacto">Elija la opción deseada: </label>
+            <select id="contacto" name="contacto">
+                <option value="1">Página Web</option>
+                <option value="2">Conocido / Familiar</option>
+                <option value="3">Redes sociales</option>
+                <option value="4">Otro</option>
+            </select>
+        </fieldset>    
+
+        <br><br>
+        <fieldset>
+            <legend>Comentarios</legend>
+            <label for="comentarios"></label> <textarea name="comentarios" rows="10" cols="50"></textarea>
+            <br><br><br><br>
+            <input type="submit" value="Enviar">
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+    <br>
+    <input type="checkbox" checked> Aceptos los términos y condiciones</p>
+    
+    <p id="volver"><a href="index.html"<i class="fa-solid fa-arrow-up"></i> Volver </a></p>
+    <br><br>
+    <a href="mailto:info@eyelen.edu.ar"><p><i class="fa-solid fa-envelope"></i> Escríbanos</p></a>
+
+</body>
+</html>
